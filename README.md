@@ -136,11 +136,6 @@ I learn by shipping: every project below started with a written spec, an archite
 ## GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ouhaddousara&show_icons=true&theme=default&hide_border=true" height="165" alt="github stats" />
-  <img src="https://streak-stats.demolab.com/?user=ouhaddousara&hide_border=true" height="165" alt="streak stats" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ouhaddousara&radius=16&area=true" height="280" alt="activity graph" />
 </div>
 
