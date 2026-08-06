@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Sara 👋</h1>
+<h1 align="center">Hey, I'm Sara 👋</h1>
 <h3 align="center">Software & Intelligent Systems Engineering Student | Data & AI Engineering Practitioner</h3>
 
 <div align="center">
@@ -56,18 +56,20 @@ I learn by shipping: every project below started with a written spec, an archite
     </td>
     <td width="50%" valign="top">
       <h3>Price Intelligence Platform</h3>
-      <p><em>Production-grade hybrid batch/streaming pipeline</em></p>
+      <p><em>Production-grade hybrid batch/streaming pipeline on GCP</em></p>
       <ul>
-        <li>Scrapy/Selenium scrapers against real e-commerce sites (Jumia, ElectroPlanet)</li>
-        <li>Kafka for streaming ingestion, NiFi for flow orchestration</li>
-        <li>MongoDB storage, with a GCP migration in progress</li>
-        <li>Solved real infra issues: Docker/WSL2 networking, Kafka connectivity</li>
+        <li>End-to-end pipeline: Scrapy/Selenium scrapers → Kafka streaming ingestion → NiFi flow orchestration → MongoDB storage</li>
+        <li>Real-world scraping against live e-commerce sites (Jumia, ElectroPlanet), including bypassing Cloudflare JS challenges</li>
+        <li>Fully migrated and running on GCP for scalable, production-grade deployment</li>
+        <li>Orchestrated with Airflow; resolved real infra challenges along the way (Docker/WSL2 networking, Kafka connectivity)</li>
       </ul>
       <p>
+        <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
         <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
         <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white"/>
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
         <img src="https://img.shields.io/badge/Apache%20NiFi-728E9B?style=flat-square&logo=apache&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white"/>
       </p>
     </td>
   </tr>
@@ -88,21 +90,6 @@ I learn by shipping: every project below started with a written spec, an archite
         <img src="https://img.shields.io/badge/OCR-FFB300?style=flat-square"/>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>RAG Pipelines — AI Engineering Externship</h3>
-      <p><em>Extern.inc x Pfizer AI Engineering Externship</em></p>
-      <ul>
-        <li>Document parsing: PyMuPDF, pdfplumber, OCR (Tesseract, PaddleOCR, EasyOCR)</li>
-        <li>RAG stack: LlamaIndex, HuggingFace embeddings, Groq LLaMA / Mistral-7B</li>
-        <li>Document classification and routing logic</li>
-        <li>Delivered through a Gradio front-end</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/LlamaIndex-000000?style=flat-square"/>
-        <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logo=gradio&logoColor=white"/>
-      </p>
-    </td>
   </tr>
 </table>
 
@@ -111,26 +98,38 @@ I learn by shipping: every project below started with a written spec, an archite
 ## Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,js" height="50" alt="languages" />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,bash" height="50" alt="languages" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=gcp,docker,kubernetes,git,linux,vscode" height="50" alt="cloud & tools" />
+  <img src="https://skillicons.dev/icons?i=gcp,docker,git,githubactions,gitlab,linux,vscode,idea" height="50" alt="cloud & tools" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql" height="50" alt="databases" />
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,sqlite" height="50" alt="databases" />
 </div>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn" height="50" alt="ml/ai" />
-</div>
+**Languages:** Python · Java · C++ · C · SQL · Bash/Shell
 
-**Data Engineering:** GCP (Pub/Sub, Cloud Run, Dataproc, BigQuery, Cloud Composer) · Apache Airflow · Apache Kafka · Apache NiFi · dbt Core · PySpark
+**Cloud (GCP):** Pub/Sub · Cloud Run · Dataproc Serverless · BigQuery · Cloud Composer · Cloud Storage · Cloud Functions
 
-**AI / NLP:** RAG pipelines · LlamaIndex · HuggingFace · OCR (Tesseract, PaddleOCR, EasyOCR) · Document parsing (PyMuPDF, pdfplumber)
+**Data Engineering / Orchestration:** Apache Airflow · dbt Core · PySpark / Apache Spark
 
-**Engineering:** Docker · GitLab CI/CD · Selenium · Scrapy · MongoDB
+**Streaming & Messaging:** Apache Kafka · Apache NiFi
+
+**Databases:** PostgreSQL · MySQL · MongoDB · SQLite
+
+**Scraping & Ingestion:** Scrapy · Selenium · BeautifulSoup · Playwright · requests/httpx
+
+**AI / Machine Learning:** Pandas · NumPy · Transformers (HuggingFace)
+
+**RAG / LLM:** LlamaIndex · LangChain · HuggingFace · OpenAI API · Groq · Mistral · Ollama · Pinecone / FAISS / ChromaDB
+
+**OCR / Document Processing:** Tesseract · PaddleOCR · EasyOCR · PyMuPDF · pdfplumber
+
+**Web / Backend:** FastAPI · Flask · Node.js · React
+
+**DevOps & Tools:** Docker · Git · GitHub Actions · GitLab CI/CD · Linux · WSL2 · VSCode · Jupyter · IntelliJ
 
 ---
 
@@ -138,7 +137,7 @@ I learn by shipping: every project below started with a written spec, an archite
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ouhaddousara&show_icons=true&theme=default&hide_border=true" height="165" alt="github stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ouhaddousara&hide_border=true" height="165" alt="streak stats" />
+  <img src="https://streak-stats.demolab.com/?user=ouhaddousara&hide_border=true" height="165" alt="streak stats" />
 </div>
 
 <div align="center">
@@ -153,10 +152,7 @@ I learn by shipping: every project below started with a written spec, an archite
   <a href="https://linkedin.com/in/sara-ouhaddou" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="linkedin" />
   </a>
-  <a href="https://YOUR_PORTFOLIO_URL" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-2E86C1?style=for-the-badge&logo=vercel&logoColor=white" height="28" alt="portfolio" />
-  </a>
-  <a href="mailto:YOUR_EMAIL" target="_blank">
+  <a href="mailto:ouhaddou.sara@etu.uae.ac.ma" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="email" />
   </a>
 </div>
