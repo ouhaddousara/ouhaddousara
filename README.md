@@ -98,7 +98,7 @@ I learn by shipping: every project below started with a written spec, an archite
 ## Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,bash" height="50" alt="languages" />
+  <img src="https://skillicons.dev/icons?i=py,java,cpp,c,bash" height="50" alt="languages" />
 </div>
 
 <div align="center">
@@ -106,7 +106,15 @@ I learn by shipping: every project below started with a written spec, an archite
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,sqlite" height="50" alt="databases" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite" height="50" alt="databases" />
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=kafka,selenium" height="50" alt="streaming & scraping" />
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,react" height="50" alt="web & backend" />
 </div>
 
 **Languages:** Python · Java · C++ · C · SQL · Bash/Shell
