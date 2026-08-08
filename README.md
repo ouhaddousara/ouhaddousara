@@ -159,7 +159,9 @@ I learn by shipping: every project below started with a written spec, an archite
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="email" />
   </a>
 </div>
-
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ouhaddousata&right_color=%23a4136f&height=22" alt="visitors" />
+</div>
 <div align="center">
 
 **Building data & AI systems with engineering discipline — one working layer at a time.**
