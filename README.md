@@ -19,7 +19,7 @@
 
 ## About Me
 
-I'm a first-year **Software and Intelligent Systems Engineering (LSI)** student at **FST Tanger**, Morocco (2025–2028), focused on the intersection of:
+I'm a second-year **Software and Intelligent Systems Engineering (LSI)** student at **FST Tanger**, Morocco (2025–2028), focused on the intersection of:
 
 - **Data Engineering** — batch/streaming pipelines, orchestration, cloud-native architecture
 - **AI Engineering** — RAG pipelines, NLP, applied LLMs
