@@ -78,10 +78,11 @@ I learn by shipping: every project below started with a written spec, an archite
       <h3>AI-Powered Customer Review Intelligence Platform</h3>
       <p><em>Personal project — NLP + RAG pipeline for e-commerce reviews</em></p>
       <ul>
-        <li>5-layer architecture: ingestion, preprocessing, OCR, NLP analysis, RAG Q&A</li>
-        <li>Real-world scraping pipeline reused/extended from the Price Intelligence Platform</li>
-        <li>RAG-based Q&A layer over structured + unstructured review data</li>
-        <li>Built layer by layer, fully working code at each stage — no stubs</li>
+        <li>4 real ingestion sources (JSON, CSV, web scraping, PDF) unified into a single schema — includes a Selenium-based scraper bypassing Cloudflare's JS challenge on a live e-commerce site</li>
+        <li>Aspect-based sentiment (product/shipping/service/price) + brand/SKU entity extraction, used to power sentiment-aware retrieval, not just semantic similarity</li>
+        <li>RAG Q&A with cited sources — multilingual embeddings, ChromaDB, LLM constrained strictly to retrieved context (verified via LLM-as-judge, 5/5 faithfulness on test set)</li>
+        <li>Every major component benchmarked before being chosen: 3 OCR engines, 3 LLMs — decisions backed by measured accuracy/speed, not assumption</li>
+        <li>Styled Gradio interface + full evaluation suite (precision@5, latency, faithfulness)</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
