@@ -85,9 +85,12 @@ I learn by shipping: every project below started with a written spec, an archite
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/NLP-4B8BBE?style=flat-square"/>
         <img src="https://img.shields.io/badge/RAG-8A2BE2?style=flat-square"/>
+        <img src="https://img.shields.io/badge/ChromaDB-6E56CF?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square"/>
+        <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
         <img src="https://img.shields.io/badge/OCR-FFB300?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square"/>
       </p>
     </td>
   </tr>
