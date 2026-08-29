@@ -145,14 +145,6 @@ I learn by shipping: every project below started with a written spec, an archite
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ouhaddousara&radius=16&area=true" height="300" alt="activity graph" />
-</div>
-
----
-
 ## Connect With Me
 
 <div align="center">
